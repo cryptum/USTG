@@ -80,6 +80,12 @@
     <Compile Include="View\PrincipalView.Designer.cs">
       <DependentUpon>PrincipalView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Reservista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Reservista.Designer.cs">
+      <DependentUpon>Reservista.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\ControleFalta.resx">
       <DependentUpon>ControleFalta.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,9 +100,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="View\PrincipalView.resx">
       <DependentUpon>PrincipalView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Reservista.resx">
+      <DependentUpon>Reservista.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
@@ -112,6 +122,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\round_face_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_fitness_center_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_games_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_home_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_list_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_timer_black_36dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

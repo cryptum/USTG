@@ -36,7 +36,7 @@ namespace Login
                     else
                     {
                         PrincipalView prin = new PrincipalView();
-                        prin.Visible = true;
+                        prin.Show();
                         this.Visible = false;
                     }
 
