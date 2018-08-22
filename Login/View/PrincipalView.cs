@@ -16,5 +16,10 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void PrincipalView_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

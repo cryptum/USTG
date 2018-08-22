@@ -47,30 +47,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControleFalta.cs">
+    <Compile Include="Model\ControleDeFalta.cs" />
+    <Compile Include="Model\DadosContato.cs" />
+    <Compile Include="Model\DataDisponivel.cs" />
+    <Compile Include="Model\DataIndisponivel.cs" />
+    <Compile Include="Model\EscalaDeGuarda.cs" />
+    <Compile Include="Model\TempoDeServico.cs" />
+    <Compile Include="Model\TAF.cs" />
+    <Compile Include="View\ControleFalta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ControleFalta.Designer.cs">
+    <Compile Include="View\ControleFalta.Designer.cs">
       <DependentUpon>ControleFalta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Controller\ServidorC.cs" />
+    <Compile Include="View\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="View\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\DadosDocumento.cs" />
+    <Compile Include="Model\DadosDomicilio.cs" />
+    <Compile Include="Model\DadosPessoal.cs" />
+    <Compile Include="Model\ReservistaM.cs" />
+    <Compile Include="Model\ServidorM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PrincipalView.cs">
+    <Compile Include="View\PrincipalView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrincipalView.Designer.cs">
+    <Compile Include="View\PrincipalView.Designer.cs">
       <DependentUpon>PrincipalView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ControleFalta.resx">
+    <EmbeddedResource Include="View\ControleFalta.resx">
       <DependentUpon>ControleFalta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="View\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -82,7 +95,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="PrincipalView.resx">
+    <EmbeddedResource Include="View\PrincipalView.resx">
       <DependentUpon>PrincipalView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
@@ -99,5 +112,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
