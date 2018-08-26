@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class DataIndisponivel
+    class DataIndisponivelM
     {
         public int IdDataIndisponivel { get; set; }
         public ReservistaM Reservista_IdReservista { get; set; }
         public string Data { get; set; }
 
-        public DataIndisponivel()
+        public DataIndisponivelM()
         {
         }
 
-        public DataIndisponivel(int IdDataIndisponivel, ReservistaM reservista_IdReservista, string data)
+        public DataIndisponivelM(int idDataIndisponivel, ReservistaM reservista_IdReservista, string data)
         {
-            IdDataIndisponivel = IdDataIndisponivel;
+            IdDataIndisponivel = idDataIndisponivel;
             Reservista_IdReservista = reservista_IdReservista;
             Data = data;
         }

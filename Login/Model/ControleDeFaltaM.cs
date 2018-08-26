@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class ControleDeFalta
+    class ControleDeFaltaM
     {
         public int IdControleDeFalt { get; set; }
         public ReservistaM Reservista_IdReservista { get; set; }
         public string Data { get; set; }
         public bool Presenca { get; set; }
 
-        public ControleDeFalta()
+        public ControleDeFaltaM()
         {
         }
 
-        public ControleDeFalta(int idControleDeFalt, ReservistaM reservista_IdReservista, string data, bool presenca)
+        public ControleDeFaltaM(int idControleDeFalt, ReservistaM reservista_IdReservista, string data, bool presenca)
         {
             IdControleDeFalt = idControleDeFalt;
             Reservista_IdReservista = reservista_IdReservista;

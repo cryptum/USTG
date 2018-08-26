@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Login
+namespace Login.View
 {
-    public partial class ControleFalta : Form
+    public partial class TempoDeServicoView : Form
     {
-        public ControleFalta()
+        public TempoDeServicoView()
         {
             InitializeComponent();
         }

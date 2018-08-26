@@ -42,7 +42,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(12)))), ((int)(((byte)(18)))));
             this.textBox1.Location = new System.Drawing.Point(232, 24);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 38);
+            this.textBox1.Size = new System.Drawing.Size(293, 32);
             this.textBox1.TabIndex = 0;
             // 
             // comboBox1
@@ -54,7 +54,7 @@
             "RA"});
             this.comboBox1.Location = new System.Drawing.Point(63, 23);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(148, 39);
+            this.comboBox1.Size = new System.Drawing.Size(148, 33);
             this.comboBox1.TabIndex = 1;
             // 
             // dataGridView1
@@ -63,25 +63,25 @@
             this.dataGridView1.Location = new System.Drawing.Point(63, 91);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(893, 273);
+            this.dataGridView1.Size = new System.Drawing.Size(1238, 511);
             this.dataGridView1.TabIndex = 2;
             // 
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(791, 389);
+            this.btnSalvar.Location = new System.Drawing.Point(1205, 639);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(137, 46);
+            this.btnSalvar.Size = new System.Drawing.Size(96, 46);
             this.btnSalvar.TabIndex = 3;
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // ControleFalta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
-            this.ClientSize = new System.Drawing.Size(1013, 453);
+            this.ClientSize = new System.Drawing.Size(1370, 697);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
@@ -93,6 +93,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Controle de Faltas";
+            this.Load += new System.EventHandler(this.ControleFalta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

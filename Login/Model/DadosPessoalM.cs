@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class DadosPessoal
+    class DadosPessoalM
     {
         public ReservistaM Reservista_IdReservista { get; set; }
         public string NomeCompleto { get; set; }
@@ -14,11 +14,11 @@ namespace Login.Model
         public string NomeMae { get; set; }
         public string NomePai { get; set; }
 
-        public DadosPessoal()
+        public DadosPessoalM()
         {
         }
 
-        public DadosPessoal(ReservistaM reservista_IdReservista, string nomeCompleto, string dataNascimento, string nomeMae, string nomePai)
+        public DadosPessoalM(ReservistaM reservista_IdReservista, string nomeCompleto, string dataNascimento, string nomeMae, string nomePai)
         {
             Reservista_IdReservista = reservista_IdReservista;
             NomeCompleto = nomeCompleto;

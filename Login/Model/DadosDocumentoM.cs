@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class DadosDocumento
+    class DadosDocumentoM
     {
         public ReservistaM Reservista_IdReservista { get; set; }
         public string RA { get; set; }
@@ -14,11 +14,11 @@ namespace Login.Model
         public string CPF { get; set; }
         public string TituloEleitoral { get; set; }
 
-        public DadosDocumento()
+        public DadosDocumentoM()
         {
         }
 
-        public DadosDocumento(ReservistaM reservista_IdReservista, string rA, string identidade, string cPF, string tituloEleitoral)
+        public DadosDocumentoM(ReservistaM reservista_IdReservista, string rA, string identidade, string cPF, string tituloEleitoral)
         {
             Reservista_IdReservista = reservista_IdReservista;
             RA = rA;

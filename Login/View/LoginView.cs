@@ -20,6 +20,8 @@ namespace Login
             public Login()
             {
                 InitializeComponent();
+                txtsenha.Text = "root";
+                txtusuario.Text = "root";
             }
 
             private void button1_Click(object sender, EventArgs e)

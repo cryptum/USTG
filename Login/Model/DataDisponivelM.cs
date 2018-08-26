@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class TempoDeServico
+    class DataDisponivelM
     {
+        public int IdDataDisponivel { get; set; }
         public ReservistaM Reservista_IdReservista { get; set; }
-        public double HoraExtra { get; set; }
-        public double TotalHora { get; set; }
+        public string Data { get; set; }
 
-        public TempoDeServico()
+        public DataDisponivelM()
         {
         }
 
-        public TempoDeServico(ReservistaM reservista_IdReservista, double horaExtra, double totalHora)
+        public DataDisponivelM(int idDataDisponivel, ReservistaM reservista_IdReservista, string data)
         {
+            IdDataDisponivel = idDataDisponivel;
             Reservista_IdReservista = reservista_IdReservista;
-            HoraExtra = horaExtra;
-            TotalHora = totalHora;
+            Data = data;
         }
     }
 }

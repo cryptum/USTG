@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class TAF
+    class TAFM
     {
         public int IdTaf { get; set; }
         public ReservistaM Reservista_IdReservista { get; set; }
@@ -16,11 +16,11 @@ namespace Login.Model
         public int Abdominal { get; set; }
         public int Corrida { get; set; }
 
-        public TAF()
+        public TAFM()
         {
         }
 
-        public TAF(int idTaf, ReservistaM reservista_IdReservista, string data, int barra, int flexao, int abdominal, int corrida)
+        public TAFM(int idTaf, ReservistaM reservista_IdReservista, string data, int barra, int flexao, int abdominal, int corrida)
         {
             IdTaf = idTaf;
             Reservista_IdReservista = reservista_IdReservista;

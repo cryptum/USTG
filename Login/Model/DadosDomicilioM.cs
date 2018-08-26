@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Login.Model
 {
-    class DadosDomicilio
+    class DadosDomicilioM
     {
         public ReservistaM Reservista_IdReservista { get; set; }
         public string Endereco { get; set; }
         public string Bairro { get; set; }
         public string CidadeNatal { get; set; }
 
-        public DadosDomicilio()
+        public DadosDomicilioM()
         {
         }
 
-        public DadosDomicilio(ReservistaM reservista_IdReservista, string endereco, string bairro, string cidadeNatal)
+        public DadosDomicilioM(ReservistaM reservista_IdReservista, string endereco, string bairro, string cidadeNatal)
         {
             Reservista_IdReservista = reservista_IdReservista;
             Endereco = endereco;

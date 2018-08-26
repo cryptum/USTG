@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Login.View
 {
-    public partial class Reservista : Form
+    public partial class TAFView : Form
     {
-        public Reservista()
+        public TAFView()
         {
             InitializeComponent();
         }
-
     }
 }

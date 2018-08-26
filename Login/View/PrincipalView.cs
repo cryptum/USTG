@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Login.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,12 @@ namespace Login
         private void PrincipalView_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            ReservistaView reser = new ReservistaView();
+            reser.ShowDialog();
         }
     }
 }
