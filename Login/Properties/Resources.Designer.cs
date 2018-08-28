@@ -63,6 +63,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap round_arrow_back_ios_black_36dp {
+            get {
+                object obj = ResourceManager.GetObject("round_arrow_back_ios_black_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_arrow_forward_ios_black_36dp {
+            get {
+                object obj = ResourceManager.GetObject("round_arrow_forward_ios_black_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap round_face_black_36dp {
             get {
                 object obj = ResourceManager.GetObject("round_face_black_36dp", resourceCulture);

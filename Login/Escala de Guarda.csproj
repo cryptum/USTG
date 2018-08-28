@@ -68,6 +68,12 @@
     <Compile Include="View\DatasView.Designer.cs">
       <DependentUpon>DatasView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\EscalaDeGuardaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EscalaDeGuardaView.Designer.cs">
+      <DependentUpon>EscalaDeGuardaView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <EmbeddedResource Include="View\DatasView.resx">
       <DependentUpon>DatasView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\EscalaDeGuardaView.resx">
+      <DependentUpon>EscalaDeGuardaView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\ReservistaView.resx">
       <DependentUpon>ReservistaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TAFView.resx">
+      <DependentUpon>TAFView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\TempoDeServicoView.resx">
       <DependentUpon>TempoDeServicoView.cs</DependentUpon>
@@ -164,6 +176,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\round_timer_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_arrow_forward_ios_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_arrow_back_ios_black_36dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class ControleFalta : Form
+    public partial class ControleFaltaView : Form
     {
         ControleDeFaltaM controledefalta = new ControleDeFaltaM();
         ControleDeFaltaC controledefaltaDao = new ControleDeFaltaC();
-        public ControleFalta()
+        public ControleFaltaView()
         {
             InitializeComponent();
         }

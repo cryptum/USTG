@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Login.View
 {
-    public partial class TAFView : Form
+    public partial class EscalaDeGuardaView : Form
     {
-        public TAFView()
+        public EscalaDeGuardaView()
         {
             InitializeComponent();
         }
-
     }
 }

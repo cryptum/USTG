@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReservistaView));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtIngressao = new System.Windows.Forms.MaskedTextBox();
@@ -175,12 +176,14 @@
             this.cbxEscolaridade.FormattingEnabled = true;
             this.cbxEscolaridade.Items.AddRange(new object[] {
             "",
-            "Ensino Médio Incompleto",
-            "Ensino Médio Completo",
-            "Ensino Técnico Incompleto",
-            "Ensino Técnico Completo",
-            "Ensino Superior Incompleto",
-            "Ensino Superior Completo"});
+            "Fundamental Incompleto",
+            "Fundamental Completo",
+            "Médio Incompleto",
+            "Médio Completo",
+            "Técnico Incompleto",
+            "Técnico Completo",
+            "Superior Incompleto",
+            "Superior Completo"});
             this.cbxEscolaridade.Location = new System.Drawing.Point(432, 164);
             this.cbxEscolaridade.Name = "cbxEscolaridade";
             this.cbxEscolaridade.Size = new System.Drawing.Size(153, 31);
@@ -714,6 +717,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ReservistaView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reservista";

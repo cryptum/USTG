@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class ControleFalta
+    partial class ControleFaltaView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControleFaltaView));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxMes = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSalvar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -45,17 +46,17 @@
             this.textBox1.Size = new System.Drawing.Size(293, 32);
             this.textBox1.TabIndex = 0;
             // 
-            // comboBox1
+            // cbxMes
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxMes.FormattingEnabled = true;
+            this.cbxMes.Items.AddRange(new object[] {
             "Nome de Guerra",
             "Nome Completo",
             "RA"});
-            this.comboBox1.Location = new System.Drawing.Point(63, 23);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(148, 33);
-            this.comboBox1.TabIndex = 1;
+            this.cbxMes.Location = new System.Drawing.Point(63, 23);
+            this.cbxMes.Name = "cbxMes";
+            this.cbxMes.Size = new System.Drawing.Size(148, 33);
+            this.cbxMes.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -84,10 +85,11 @@
             this.ClientSize = new System.Drawing.Size(1370, 697);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbxMes);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(12)))), ((int)(((byte)(18)))));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "ControleFalta";
             this.ShowIcon = false;
@@ -103,7 +105,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxMes;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnSalvar;
     }
