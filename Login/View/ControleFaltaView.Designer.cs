@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControleFaltaView));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cbxMes = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tblFalta = new System.Windows.Forms.DataGridView();
             this.btnSalvar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblFalta)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -58,14 +58,14 @@
             this.cbxMes.Size = new System.Drawing.Size(148, 33);
             this.cbxMes.TabIndex = 1;
             // 
-            // dataGridView1
+            // tblFalta
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(63, 91);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1238, 511);
-            this.dataGridView1.TabIndex = 2;
+            this.tblFalta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblFalta.Location = new System.Drawing.Point(63, 91);
+            this.tblFalta.Name = "tblFalta";
+            this.tblFalta.RowTemplate.Height = 24;
+            this.tblFalta.Size = new System.Drawing.Size(1238, 511);
+            this.tblFalta.TabIndex = 2;
             // 
             // btnSalvar
             // 
@@ -77,26 +77,26 @@
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // ControleFalta
+            // ControleFaltaView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(1370, 697);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.tblFalta);
             this.Controls.Add(this.cbxMes);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(12)))), ((int)(((byte)(18)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Name = "ControleFalta";
+            this.Name = "ControleFaltaView";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Controle de Faltas";
             this.Load += new System.EventHandler(this.ControleFalta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblFalta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,7 +106,7 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox cbxMes;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tblFalta;
         private System.Windows.Forms.Button btnSalvar;
     }
 }

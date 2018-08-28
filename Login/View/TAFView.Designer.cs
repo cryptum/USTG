@@ -29,38 +29,37 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TAFView));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtReservista = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtData = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDireita = new System.Windows.Forms.PictureBox();
+            this.btnEsquerda = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.txtNotaFinal = new System.Windows.Forms.TextBox();
+            this.txtBarra = new System.Windows.Forms.MaskedTextBox();
+            this.txtAbdominal = new System.Windows.Forms.MaskedTextBox();
+            this.txtFlexao = new System.Windows.Forms.MaskedTextBox();
+            this.txtCorrida = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDireita)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEsquerda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtReservista
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(383, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(620, 43);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtReservista.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReservista.Location = new System.Drawing.Point(383, 12);
+            this.txtReservista.Name = "txtReservista";
+            this.txtReservista.Size = new System.Drawing.Size(620, 43);
+            this.txtReservista.TabIndex = 0;
+            this.txtReservista.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -72,25 +71,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Reservista";
             // 
-            // label2
+            // txtData
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(980, 419);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 30);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "__/__/____";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(305, 419);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 30);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "__/__/____";
+            this.txtData.AutoSize = true;
+            this.txtData.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtData.Location = new System.Drawing.Point(980, 419);
+            this.txtData.Name = "txtData";
+            this.txtData.Size = new System.Drawing.Size(101, 30);
+            this.txtData.TabIndex = 5;
+            this.txtData.Text = "__/__/____";
             // 
             // label4
             // 
@@ -102,31 +91,15 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Barra";
             // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(461, 180);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 30);
-            this.textBox2.TabIndex = 8;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(774, 154);
+            this.label5.Location = new System.Drawing.Point(769, 154);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 23);
             this.label5.TabIndex = 9;
             this.label5.Text = "Abdominal";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(771, 180);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 30);
-            this.textBox3.TabIndex = 10;
             // 
             // label6
             // 
@@ -138,22 +111,6 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Flexão";
             // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(461, 287);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 30);
-            this.textBox4.TabIndex = 12;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(771, 287);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 30);
-            this.textBox5.TabIndex = 13;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -164,25 +121,25 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Corrida";
             // 
-            // pictureBox2
+            // btnDireita
             // 
-            this.pictureBox2.Image = global::Login.Properties.Resources.round_arrow_forward_ios_black_36dp;
-            this.pictureBox2.Location = new System.Drawing.Point(1009, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
+            this.btnDireita.Image = global::Login.Properties.Resources.round_arrow_forward_ios_black_36dp;
+            this.btnDireita.Location = new System.Drawing.Point(1009, 12);
+            this.btnDireita.Name = "btnDireita";
+            this.btnDireita.Size = new System.Drawing.Size(46, 43);
+            this.btnDireita.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnDireita.TabIndex = 16;
+            this.btnDireita.TabStop = false;
             // 
-            // pictureBox1
+            // btnEsquerda
             // 
-            this.pictureBox1.Image = global::Login.Properties.Resources.round_arrow_back_ios_black_36dp;
-            this.pictureBox1.Location = new System.Drawing.Point(331, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 43);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.btnEsquerda.Image = global::Login.Properties.Resources.round_arrow_back_ios_black_36dp;
+            this.btnEsquerda.Location = new System.Drawing.Point(331, 12);
+            this.btnEsquerda.Name = "btnEsquerda";
+            this.btnEsquerda.Size = new System.Drawing.Size(46, 43);
+            this.btnEsquerda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnEsquerda.TabIndex = 15;
+            this.btnEsquerda.TabStop = false;
             // 
             // dataGridView1
             // 
@@ -192,25 +149,25 @@
             this.dataGridView1.Size = new System.Drawing.Size(271, 352);
             this.dataGridView1.TabIndex = 17;
             // 
-            // button1
+            // btnNovo
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(56, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 40);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNovo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.Location = new System.Drawing.Point(56, 25);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(86, 40);
+            this.btnNovo.TabIndex = 18;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnExcluir
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(168, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 40);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnExcluir.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.Location = new System.Drawing.Point(168, 25);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(86, 40);
+            this.btnExcluir.TabIndex = 19;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -222,44 +179,88 @@
             this.label8.TabIndex = 20;
             this.label8.Text = "Nota Final";
             // 
-            // textBox6
+            // txtNotaFinal
             // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(635, 408);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(84, 30);
-            this.textBox6.TabIndex = 21;
+            this.txtNotaFinal.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNotaFinal.Location = new System.Drawing.Point(635, 408);
+            this.txtNotaFinal.Name = "txtNotaFinal";
+            this.txtNotaFinal.Size = new System.Drawing.Size(84, 30);
+            this.txtNotaFinal.TabIndex = 21;
+            this.txtNotaFinal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBarra
+            // 
+            this.txtBarra.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBarra.Location = new System.Drawing.Point(460, 180);
+            this.txtBarra.Mask = "00000";
+            this.txtBarra.Name = "txtBarra";
+            this.txtBarra.Size = new System.Drawing.Size(100, 30);
+            this.txtBarra.TabIndex = 22;
+            this.txtBarra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarra.ValidatingType = typeof(int);
+            // 
+            // txtAbdominal
+            // 
+            this.txtAbdominal.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAbdominal.Location = new System.Drawing.Point(773, 180);
+            this.txtAbdominal.Mask = "00000";
+            this.txtAbdominal.Name = "txtAbdominal";
+            this.txtAbdominal.Size = new System.Drawing.Size(100, 30);
+            this.txtAbdominal.TabIndex = 23;
+            this.txtAbdominal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAbdominal.ValidatingType = typeof(int);
+            // 
+            // txtFlexao
+            // 
+            this.txtFlexao.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFlexao.Location = new System.Drawing.Point(460, 287);
+            this.txtFlexao.Mask = "00000";
+            this.txtFlexao.Name = "txtFlexao";
+            this.txtFlexao.Size = new System.Drawing.Size(100, 30);
+            this.txtFlexao.TabIndex = 24;
+            this.txtFlexao.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFlexao.ValidatingType = typeof(int);
+            // 
+            // txtCorrida
+            // 
+            this.txtCorrida.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorrida.Location = new System.Drawing.Point(773, 287);
+            this.txtCorrida.Mask = "00000";
+            this.txtCorrida.Name = "txtCorrida";
+            this.txtCorrida.Size = new System.Drawing.Size(100, 30);
+            this.txtCorrida.TabIndex = 25;
+            this.txtCorrida.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCorrida.ValidatingType = typeof(int);
             // 
             // TAFView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 450);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtCorrida);
+            this.Controls.Add(this.txtFlexao);
+            this.Controls.Add(this.txtAbdominal);
+            this.Controls.Add(this.txtBarra);
+            this.Controls.Add(this.txtNotaFinal);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnDireita);
+            this.Controls.Add(this.btnEsquerda);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtData);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtReservista);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TAFView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Teste de Aptidão Física";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDireita)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEsquerda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -268,24 +269,23 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtReservista;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label txtData;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox btnEsquerda;
+        private System.Windows.Forms.PictureBox btnDireita;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtNotaFinal;
+        private System.Windows.Forms.MaskedTextBox txtBarra;
+        private System.Windows.Forms.MaskedTextBox txtAbdominal;
+        private System.Windows.Forms.MaskedTextBox txtFlexao;
+        private System.Windows.Forms.MaskedTextBox txtCorrida;
     }
 }
