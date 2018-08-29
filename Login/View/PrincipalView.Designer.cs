@@ -46,7 +46,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Login.Properties.Resources.round_home_black_36dp;
-            this.pictureBox1.Location = new System.Drawing.Point(511, 19);
+            this.pictureBox1.Location = new System.Drawing.Point(477, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(72, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -64,16 +64,16 @@
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 582);
+            this.groupBox1.Location = new System.Drawing.Point(12, 598);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1346, 99);
+            this.groupBox1.Size = new System.Drawing.Size(1346, 100);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Login.Properties.Resources.round_face_black_36dp;
-            this.pictureBox5.Location = new System.Drawing.Point(823, 19);
+            this.pictureBox5.Location = new System.Drawing.Point(789, 19);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(72, 72);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -84,7 +84,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Login.Properties.Resources.round_fitness_center_black_36dp;
-            this.pictureBox4.Location = new System.Drawing.Point(667, 19);
+            this.pictureBox4.Location = new System.Drawing.Point(633, 19);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(72, 72);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -95,7 +95,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Login.Properties.Resources.round_timer_black_36dp;
-            this.pictureBox3.Location = new System.Drawing.Point(745, 19);
+            this.pictureBox3.Location = new System.Drawing.Point(711, 19);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(72, 72);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -106,7 +106,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Login.Properties.Resources.round_list_black_36dp;
-            this.pictureBox2.Location = new System.Drawing.Point(589, 19);
+            this.pictureBox2.Location = new System.Drawing.Point(555, 19);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(72, 72);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 693);
+            this.ClientSize = new System.Drawing.Size(1370, 710);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PrincipalView";

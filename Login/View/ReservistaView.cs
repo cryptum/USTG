@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Login.Controller;
+using Login.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,8 @@ namespace Login.View
 {
     public partial class ReservistaView : Form
     {
+        ReservistaM reservista = new ReservistaM();
+        ReservistaC reservistadao = new ReservistaC();
         public ReservistaView()
         {
             InitializeComponent();
@@ -33,14 +37,14 @@ namespace Login.View
             PatenteSentinela.Checked = false;
             txtIngressao.Text = String.Empty;
             //Dados pessoais
-            txtNomeCompleto.Text = String.Empty;
+            txtNomePai.Text = String.Empty;
             txtDataNascimento.Text = String.Empty;
             txtNomeMae.Text = String.Empty;
-            txtNomePai.Text = String.Empty;
+            txtNomeCompleto.Text = String.Empty;
             //Dados Domicilio
+            txtCidadeNatal.Text = String.Empty;
             txtEndereco.Text = String.Empty;
             txtBairro.Text = String.Empty;
-            txtCidadeNatal.Text = String.Empty;
             //Dados Contatos
             txtTelefone.Text = String.Empty;
             txtCelular.Text = String.Empty;
@@ -53,5 +57,42 @@ namespace Login.View
 
         }
 
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            reservista = new ReservistaM();
+            if (SimVoluntario.Checked == true)
+            {
+                reservista.Voluntario = true;
+            }
+            else
+            {
+                reservista.Voluntario = false;
+            }
+            if (PatenteSentinela.Checked == true)
+            {
+                reservista.Patente = true;
+            }
+            else
+            {
+                reservista.Patente = false;
+            }
+            reservista.NomeGuerra = txtNomeGuerra.Text.Trim();
+            reservista.Profissao = txtProfissao.Text.Trim();
+            reservista.LocalTrabalho = txtLocalTrabalho.Text.Trim();
+            reservista.Escolaridade = cbxEscolaridade.Text;
+            reservista.Religiao = txtReligiao.Text.Trim();
+            reservista.Status = cbxSituacao.Text;
+            reservista.Ingressao = txtIngressao.Text.Trim();
+
+            int retorno = reservistadao.Salvar(reservista);
+            if(retorno == 1)
+            {
+                MessageBox.Show("           Salvo Com Sucesso!      ");
+            }
+            else
+            {
+                MessageBox.Show("Deu ruim");
+            }
+        }
     }
 }

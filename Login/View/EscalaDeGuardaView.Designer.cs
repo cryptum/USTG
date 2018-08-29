@@ -51,8 +51,9 @@
             this.Controls.Add(this.tblEscala);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EscalaDeGuardaView";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Escala De Guarda";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.tblEscala)).EndInit();
             this.ResumeLayout(false);
 

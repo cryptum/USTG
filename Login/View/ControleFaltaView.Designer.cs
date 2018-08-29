@@ -93,8 +93,9 @@
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "ControleFaltaView";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Controle de Faltas";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ControleFalta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblFalta)).EndInit();
             this.ResumeLayout(false);

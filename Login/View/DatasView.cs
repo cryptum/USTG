@@ -16,6 +16,5 @@ namespace Login.View
         {
             InitializeComponent();
         }
-
     }
 }

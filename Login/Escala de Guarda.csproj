@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ControleDeFaltaC.cs" />
+    <Compile Include="Controller\DatasC.cs" />
+    <Compile Include="Controller\ReservistaC.cs" />
     <Compile Include="Model\ControleDeFaltaM.cs" />
     <Compile Include="Model\DadosContatoM.cs" />
     <Compile Include="Model\DataDisponivelM.cs" />

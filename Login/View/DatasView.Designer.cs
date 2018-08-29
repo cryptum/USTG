@@ -68,10 +68,10 @@
             // txtData
             // 
             this.txtData.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtData.Location = new System.Drawing.Point(10, 112);
+            this.txtData.Location = new System.Drawing.Point(10, 182);
             this.txtData.Mask = "00/00/0000";
             this.txtData.Name = "txtData";
-            this.txtData.Size = new System.Drawing.Size(103, 30);
+            this.txtData.Size = new System.Drawing.Size(113, 30);
             this.txtData.TabIndex = 6;
             this.txtData.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtData.ValidatingType = typeof(System.DateTime);
@@ -84,7 +84,7 @@
             "",
             "Punir",
             "Dispensar"});
-            this.cbxAcao.Location = new System.Drawing.Point(10, 182);
+            this.cbxAcao.Location = new System.Drawing.Point(10, 112);
             this.cbxAcao.Name = "cbxAcao";
             this.cbxAcao.Size = new System.Drawing.Size(196, 31);
             this.cbxAcao.TabIndex = 5;
@@ -93,7 +93,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 156);
+            this.label3.Location = new System.Drawing.Point(6, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 23);
             this.label3.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 86);
+            this.label2.Location = new System.Drawing.Point(6, 156);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 23);
             this.label2.TabIndex = 2;
