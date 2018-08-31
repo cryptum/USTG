@@ -42,11 +42,11 @@
             this.btnNovo = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtNotaFinal = new System.Windows.Forms.TextBox();
             this.txtBarra = new System.Windows.Forms.MaskedTextBox();
             this.txtAbdominal = new System.Windows.Forms.MaskedTextBox();
             this.txtFlexao = new System.Windows.Forms.MaskedTextBox();
             this.txtCorrida = new System.Windows.Forms.MaskedTextBox();
+            this.txtNotaFinal = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnDireita)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEsquerda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -179,15 +179,6 @@
             this.label8.TabIndex = 20;
             this.label8.Text = "Nota Final";
             // 
-            // txtNotaFinal
-            // 
-            this.txtNotaFinal.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNotaFinal.Location = new System.Drawing.Point(635, 408);
-            this.txtNotaFinal.Name = "txtNotaFinal";
-            this.txtNotaFinal.Size = new System.Drawing.Size(84, 30);
-            this.txtNotaFinal.TabIndex = 21;
-            this.txtNotaFinal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // txtBarra
             // 
             this.txtBarra.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -232,16 +223,24 @@
             this.txtCorrida.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCorrida.ValidatingType = typeof(int);
             // 
+            // txtNotaFinal
+            // 
+            this.txtNotaFinal.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNotaFinal.Location = new System.Drawing.Point(635, 408);
+            this.txtNotaFinal.Name = "txtNotaFinal";
+            this.txtNotaFinal.Size = new System.Drawing.Size(84, 30);
+            this.txtNotaFinal.TabIndex = 26;
+            // 
             // TAFView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 450);
+            this.Controls.Add(this.txtNotaFinal);
             this.Controls.Add(this.txtCorrida);
             this.Controls.Add(this.txtFlexao);
             this.Controls.Add(this.txtAbdominal);
             this.Controls.Add(this.txtBarra);
-            this.Controls.Add(this.txtNotaFinal);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnNovo);
@@ -282,10 +281,10 @@
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtNotaFinal;
         private System.Windows.Forms.MaskedTextBox txtBarra;
         private System.Windows.Forms.MaskedTextBox txtAbdominal;
         private System.Windows.Forms.MaskedTextBox txtFlexao;
         private System.Windows.Forms.MaskedTextBox txtCorrida;
+        private System.Windows.Forms.TextBox txtNotaFinal;
     }
 }

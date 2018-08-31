@@ -16,6 +16,10 @@ namespace Login
     {
         ControleDeFaltaM controledefalta = new ControleDeFaltaM();
         ControleDeFaltaC controledefaltaDao = new ControleDeFaltaC();
+
+        ReservistaM reservista = new ReservistaM();
+        ReservistaC reservistadao = new ReservistaC();
+        List<ReservistaM> listaDeRetorno = new List<ReservistaM>();
         public ControleFaltaView()
         {
             InitializeComponent();
@@ -23,7 +27,9 @@ namespace Login
 
         private void ControleFalta_Load(object sender, EventArgs e)
         {
-        
+            listaDeRetorno = new List<ReservistaM>();
+            listaDeRetorno = reservistadao.CarregarTodosReservista();
+            tblFalta.DataSource = listaDeRetorno; //Passa lista de cliente para a gridView
         }
     }
 }

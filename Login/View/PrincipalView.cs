@@ -38,14 +38,14 @@ namespace Login
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            TAFView taf = new TAFView();
-            taf.ShowDialog();
+            DatasView data = new DatasView();
+            data.ShowDialog();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            DatasView data = new DatasView();
-            data.ShowDialog();
+            TAFView taf = new TAFView();
+            taf.ShowDialog();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

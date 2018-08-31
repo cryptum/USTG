@@ -1,2 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Login.Model.ControleDeFaltaM">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAABCAAAAAEAAAAAA=</HashCode>
+      <FileName>Model\ControleDeFaltaM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DadosContatoM" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DadosContatoM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DadosDocumentoM" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAABAAAAAAAACCAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DadosDocumentoM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DadosDomicilioM" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Model\DadosDomicilioM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DadosPessoalM" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAEAAAAAAIAAAAAAAAAAIAAgAA=</HashCode>
+      <FileName>Model\DadosPessoalM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DataDisponivelM" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAgAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataDisponivelM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.DataIndisponivelM" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAgAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataIndisponivelM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.EscalaDeGuardaM" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAQAA=</HashCode>
+      <FileName>Model\EscalaDeGuardaM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.ReservistaM" Collapsed="true">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAIAAAAgAQAAAACgAQAIAAQAAgAAAAA=</HashCode>
+      <FileName>Model\ReservistaM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.TAFM" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBEAAAAAAAAAAAAAABAQEAAAAAgAAAA=</HashCode>
+      <FileName>Model\TAFM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.Model.TempoDeServicoM" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TempoDeServicoM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -22,20 +22,39 @@ namespace Login.Controller
                 MySqlCommand comando = new MySqlCommand();
                 comando = conexao.CreateCommand();
                 comando.CommandText = "insert into DataDisponivel values(" +
+                    "@IdDataDisponivel," +
+                    "@Reservista_IdReservista," +
+                    "@Data)";
+                comando.Parameters.AddWithValue("@IdDataDisponivel", null);
+                comando.Parameters.AddWithValue("@Reservista_IdReservista", dataDisp.Reservista_IdReservista);
+                comando.Parameters.AddWithValue("@Data", dataDisp.Data);
+                int retorno = comando.ExecuteNonQuery();
+                conexao.Close();
+
+                return retorno;
+            }
+            catch (SqlException)
+            {
+                return 0;
+            }
+        }
+
+        public int SalvarDispensa(DataIndisponivelM dataIndisp)
+        {
+            try
+            {
+                string conn = ConfigurationManager.ConnectionStrings["MySQLConnectionString"].ToString();
+                MySqlConnection conexao = new MySqlConnection(conn);
+                conexao.Open();
+                MySqlCommand comando = new MySqlCommand();
+                comando = conexao.CreateCommand();
+                comando.CommandText = "insert into DataIndisponivel values(" +
                     "@IdDataIndisponivel," +
                     "@Reservista_IdReservista," +
-                    "@LocalTrabalho," +
-                    "@Escolaridade," +
-                    "@Voluntario," +
-                    "@Religiao," +
-                    "@Folgas," +
-                    "@Status," +
-                    "@Patente," +
-                    "@Ingressao)";
-                comando.Parameters.AddWithValue("@IdReservista", null);
-                comando.Parameters.AddWithValue("@NomeGuerra", dataDisp.IdDataDisponivel);
-                comando.Parameters.AddWithValue("@Profissao", dataDisp.Reservista_IdReservista);
-                comando.Parameters.AddWithValue("@LocalTrabalho", dataDisp.Data);
+                    "@Data)";
+                comando.Parameters.AddWithValue("@IdDataIndisponivel", null);
+                comando.Parameters.AddWithValue("@Reservista_IdReservista", dataIndisp.Reservista_IdReservista);
+                comando.Parameters.AddWithValue("@Data", dataIndisp.Data);
                 int retorno = comando.ExecuteNonQuery();
                 conexao.Close();
 
